@@ -1,24 +1,18 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
+import Speechconv from './tovoice.css';
+import SpeechConvert from './tovoice';
+import Textconv from './totext.css';
+import TextConvert from './totext';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+   
+  <div className="banja">
+      <SpeechConvert/>
+      <TextConvert/>
+    </div> 
+  
   );
 }
 
